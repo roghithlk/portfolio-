@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roghith LK - Full Stack Developer</title>
+    <link rel="stylesheet" href="p1.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">Roghith LK</div>
+            <ul class="nav-links">
+                <li><a href="#" onclick="showPage('home')" class="nav-link active">Home</a></li>
+                <li><a href="#" onclick="showPage('about')" class="nav-link">About</a></li>
+                <li><a href="#" onclick="showPage('projects')" class="nav-link">Projects</a></li>
+                <li><a href="#" onclick="showPage('contact')" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home Page -->
+    <div id="home" class="page active">
+        <div class="container">
+            <div class="hero">
+                <div class="profile-image"><img src="img3.png.jpg" alt="Profile" style="width: 100%; height: 100%; border-radius: 50%; object-fit: cover;" /></div>
+                <h1>Hi, I'm Roghith LK</h1>
+                <p class="subtitle"><strong>B.E. in Computer Science and Engineering | Full Stack Developer</strong></p>
+                <p>I'm a passionate full stack developer with a love for building smart, responsive, and user-friendly web applications. I enjoy working across the front-end and back-end to create seamless digital experiences. Always learning, always building.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Page -->
+    <div id="about" class="page">
+        <div class="container">
+            <div class="about-content">
+                <h2>About Me</h2>
+                <p>Hi, I'm <strong>Roghith LK</strong>, a passionate and detail-oriented <strong>Full Stack Developer</strong> with a <strong>Bachelor's degree in Computer Science and Engineering</strong>. I specialize in building robust, scalable, and user-friendly web applications using modern technologies across both front-end and back-end stacks.</p>
+                
+                <p>With a strong foundation in computer science principles and hands-on experience in frameworks like <strong>React.js, Node.js, Express</strong>, and databases like <strong>MongoDB and MySQL</strong>, I love turning complex problems into elegant, efficient solutions. I enjoy the full lifecycle of development—from designing intuitive UI/UX to deploying and maintaining performant APIs.</p>
+                
+                <p>I'm always eager to learn new technologies, collaborate with dynamic teams, and contribute to meaningful digital experiences. Whether it's crafting sleek interfaces or engineering powerful server-side logic, I bring creativity and precision to every project I take on.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="projects" class="page">
+  <div class="container">
+    <h2 class="page-title">My Projects</h2>
+    <div class="project-container">
+
+      <!-- Family Expense Tracker Project -->
+      <div class="project-card">
+        <div class="project-header">
+          <div class="project-icon">💰</div>
+          <h3 class="project-title">Family Expense Tracker</h3>
+        </div>
+
+        <div class="tech-stack">
+          <strong>Tech Stack:</strong> React.js, Node.js, Express, MongoDB
+        </div>
+
+        <div class="project-description">
+          A comprehensive web application designed to help families track and manage their daily expenses, loans, and emergency funds. Built with a modern, responsive interface that provides real-time insights into family financial health.
+        </div>
+
+        <div class="project-image-container">
+          <img src="img.png" alt="Family Expense Tracker Dashboard" class="project-image" />
+          <div class="image-caption">
+            Dashboard Overview - Family Expense Tracker Application
+          </div>
+        </div>
+
+        <div class="project-description">
+          Key features include a comprehensive dashboard showing monthly expenses, emergency fund status, active loans, and family member management:
+        </div>
+
+        <ul class="features-list">
+          <li><strong>Dashboard Overview</strong> with real-time financial metrics and budget tracking</li>
+          <li><strong>Expense Management</strong> - Add, categorize, and track daily family expenses</li>
+          <li><strong>Emergency Fund</strong> tracking with dedicated savings goals</li>
+          <li><strong>Loan Management</strong> - Monitor active loans and payment schedules</li>
+          <li><strong>Multi-user Support</strong> - Manage expenses for different family members</li>
+          <li><strong>Budget Analysis</strong> - Visual representation of spending vs. budget limits</li>
+          <li><strong>Recent Activity</strong> - Track latest expenses with member attribution</li>
+        </ul>
+
+        <div class="project-description">
+          The application features a clean, intuitive interface with color-coded categories, progress indicators, and detailed financial summaries. Built using <strong>React</strong> for dynamic user interactions, <strong>Node.js with Express</strong> for robust API endpoints, and <strong>MongoDB</strong> for secure data management.
+        </div>
+
+        <div class="project-goal">
+          <span class="goal-emoji">🎯</span><strong>Goal:</strong> To create a centralized platform for families to achieve better financial transparency, track spending patterns, and work together towards common financial goals.
+        </div>
+      </div>
+
+      <!-- Automated Bus Scheduling System -->
+      <div class="project-card" style="animation-delay: 0.2s;">
+        <div class="project-header">
+          <div class="project-icon">🚌</div>
+          <h3 class="project-title">Automated Bus Scheduling and Route Management System for DTC</h3>
+        </div>
+
+        <div class="tech-stack">
+          <strong>Tech Stack:</strong> Web Technologies, Interactive Maps, Geolocation APIs, Database Management
+        </div>
+
+        <div class="project-description">
+          A comprehensive web-based system designed to streamline and digitize bus operations for the Delhi Transport Corporation (DTC). This project modernizes public transport infrastructure through automation and smart data handling.
+        </div>
+
+        <div class="project-image-container">
+          <img src="img1.png" alt="Family Expense Tracker Dashboard" class="project-image" />
+  <div class="image-caption">
+    Dashboard Overview - Automated Bus Scheduling System
+  </div>
+        </div>
+
+        <div class="project-description">
+          The system features an interactive map-based interface where users can search for buses by number and track routes across Delhi. Key capabilities include:
+        </div>
+
+        <ul class="features-list">
+          <li><strong>Interactive Route Mapping</strong> - Real-time visualization of bus routes across the city</li>
+          <li><strong>Bus Number Search</strong> - Quick search functionality to locate specific buses</li>
+          <li><strong>Admin Control Module</strong> - Comprehensive management dashboard for operations</li>
+          <li><strong>Crew Management System</strong> - Staff scheduling and assignment tracking</li>
+          <li><strong>User Access Portal</strong> - Public interface for commuter information</li>
+          <li><strong>Geolocation Integration</strong> - GPS-based tracking and route optimization</li>
+          <li><strong>Real-time Updates</strong> - Live schedule changes and route modifications</li>
+          <li><strong>Smart Scheduling</strong> - Automated bus scheduling to reduce delays</li>
+        </ul>
+
+        <div class="project-description">
+          The platform integrates geolocation data with an intuitive user interface to enhance route management efficiency. It provides separate access levels for administrators, crew members, and general users, ensuring secure and role-based functionality. The system aims to reduce operational delays and significantly improve the commuting experience for passengers.
+        </div>
+
+        <div class="project-goal">
+          <span class="goal-emoji">🎯</span><strong>Goal:</strong> To modernize Delhi's public transport infrastructure by creating an automated, efficient, and user-friendly bus management system that enhances operational efficiency and improves passenger experience.
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+    <!-- Contact Page -->
+    <div id="contact" class="page">
+        <div class="container">
+            <div class="contact-content">
+                <h2>Get In Touch</h2>
+                <p>I'm always open to discussing new opportunities, interesting projects, or just having a chat about technology. Feel free to reach out!</p>
+                
+                <div class="contact-grid">
+                    <div class="contact-item" style="animation-delay: 0.1s;">
+                        <div class="contact-icon">📧</div>
+                        <h3>
+                        <a href="roghithlk90@gmail.com">Email</a>
+                        </h3>
+                    </div>
+                    
+                    <div class="contact-item" style="animation-delay: 0.3s;">
+                        <div class="contact-icon">💼</div>
+                        <h3>
+                        <a href="https://www.linkedin.com/in/roghith-l-k-22a7b429a/">LinkedIn</a>
+                        </h3>
+                    </div>
+                    
+                    <div class="contact-item" style="animation-delay: 0.5s;">
+                        <div class="contact-icon">🐙</div>
+                       <h3>
+                        <a href="https://github.com/roghithlk">Github</a>
+                        </h3>
+                        
+                    </div>
+                    <div class="contact-item" style="animation-delay: 0.7s;">
+                        <div class="contact-icon">📄</div>
+                        <h3>
+                          <a href="#" class="download-btn" onclick="alert('Resume download would be implemented here!')">
+                         Download Resume
+                        </h3>
+                     
+                </a>
+                </div>
+            </div>
+        </div>
+      </div>
+ <script>
+        function showPage(pageName) {
+            // Hide all pages
+            const pages = document.querySelectorAll('.page');
+            pages.forEach(page => {
+                page.classList.remove('active');
+            });
+            
+            // Remove active class from all nav links
+            const navLinks = document.querySelectorAll('.nav-link');
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+            });
+            
+            // Show selected page with delay for animation
+            setTimeout(() => {
+                document.getElementById(pageName).classList.add('active');
+            }, 100);
+            
+            // Add active class to clicked nav link
+            event.target.classList.add('active');
+        }
+
+        // Add some interactive elements
+        document.addEventListener('DOMContentLoaded', function() {
+            // Add some dynamic background particles
+            function createParticle() {
+                const particle = document.createElement('div');
+                particle.style.cssText = `
+                    position: fixed;
+                    width: 4px;
+                    height: 4px;
+                    background: rgba(255, 255, 255, 0.6);
+                    border-radius: 50%;
+                    pointer-events: none;
+                    z-index: 1;
+                    animation: particleFloat ${Math.random() * 3 + 2}s linear forwards;
+                    left: ${Math.random() * 100}vw;
+                    top: 100vh;
+                `;
+                
+                document.body.appendChild(particle);
+                
+                setTimeout(() => {
+                    particle.remove();
+                }, 5000);
+            }
+
+            // Create particles periodically
+            setInterval(createParticle, 2000);
+
+            // Add particle animation
+            const style = document.createElement('style');
+            style.textContent = `
+                @keyframes particleFloat {
+                    to {
+                        transform: translateY(-100vh) translateX(${Math.random() * 100 - 50}px);
+                        opacity: 0;
+                    }
+                }
+            `;
+            document.head.appendChild(style);
+        });
+    </script>
+              
+   
+</body>
+</html>
